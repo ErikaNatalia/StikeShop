@@ -1,0 +1,11 @@
+.box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 1rem;
+    color: red;
+    padding: 1rem;
+    margin: 1rem;
+    /* Que en x y y no se muevan, blur de 1 rem color negro con 25% de opacidad y que sea interno: inset */
+    box-shadow: 0 0 1rem #00000025 inset;
+
+}
