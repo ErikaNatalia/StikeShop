@@ -1,13 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@1,300&display=swap');
+
 .item{
+    display: flex;
     padding: 10px;
     /* border: 2px solid #fefefe; */
-    border: 2px solid #070707;
+    border: 2px solid #fefefe;
     border-radius: 7px;
 }
 .imgItem{
-    width: 100%;
+    width: 35%;
     border-radius: 7px;
 }
+.featuresItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+.trashIcon{
+    position: relative;
+    bottom: 40%;
+    left: 45%;
+    color: red;
+    cursor: pointer;
+    font-size: 2rem;
+}
+.conteIcon{
+    border: none;
+    background: transparent;
+}
 .titleArt{
-
+    color: #fefefe;
+    font-size: 1.4rem;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+}
+.priceItem{
+    color: #8C763D;
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
 }

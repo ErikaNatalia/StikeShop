@@ -36,7 +36,7 @@ const ShopCart = () => {
             <h1>Carrito de compras</h1>
             <h2>Productos</h2>
             {/* Renderiza, de los productos en estado inicial, mapea cada producto */}
-            <article className={shop.box}>
+            <article className={shop.boxCard}>
                 {products.map((product) => (
                     <CardItem 
                     key={product.id} 
@@ -45,7 +45,7 @@ const ShopCart = () => {
                 ))}
             </article>
             <h2>Tu compra</h2>
-            <article className={shop.box}>
+            <article className={shop.boxItem}>
                 <button onClick={clearCart}>Limpiar el carrito</button>
                 {cart.map((item, index) => (
                     <CartItem 

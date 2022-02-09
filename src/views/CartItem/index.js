@@ -1,4 +1,8 @@
 import cartStyle from './cartItem.module.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTrash } from '@fortawesome/free-solid-svg-icons';
+
+const delAll = <FontAwesomeIcon icon={faTrash} className={cartStyle.trashIcon} /> /* IconFormFA */
 
 const CartItem = ({data, removeFCart}) => {
     //destructuring
@@ -6,11 +10,12 @@ const CartItem = ({data, removeFCart}) => {
     return(
         <div className={cartStyle.item}>
             <img className={cartStyle.imgItem} src={image} alt="Aqui imagen"/>
-            <h2 className={cartStyle.titleArt}>{title}</h2>
-            <h3>Cop{price}.000 x {quantity} = cop{price*quantity}.000</h3>
-            <button onClick={() => removeFCart(id)}>Eliminar un producto</button>
-            <br/>
-            <button onClick={() => removeFCart(id, true)}>Eliminar todos los productos</button>
+            <div className={cartStyle.featuresItem}>
+                <button className={cartStyle.conteIcon} onClick={() => removeFCart(id, true)}>{delAll}</button>
+                <p className={cartStyle.titleArt}>{title}</p>
+                <p className={cartStyle.priceItem} >Cop {price}.000 x {quantity} = cop {price*quantity}.000</p>
+                <button onClick={() => removeFCart(id)}>Eliminar un producto</button>
+            </div>
         </div>
     );
 }

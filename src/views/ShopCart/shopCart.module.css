@@ -1,11 +1,20 @@
-.box{
+.boxCard{
+    padding: 0 18px 0 18px;
     background-color: #070707;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     gap: 1rem;
-    padding: 1rem;
-    margin: 1rem;
     /* Que en x y y no se muevan, blur de 1 rem color negro con 25% de opacidad y que sea interno: inset */
-    box-shadow: 0 0 1rem #00000025 inset;
+    /* box-shadow: 0 0 1rem #00000025 inset; */
 
 } 
+
+.boxItem{
+    padding: 0 18px 0 18px;
+    background-color: #070707;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
+    gap: 1rem;
+    /* Que en x y y no se muevan, blur de 1 rem color negro con 25% de opacidad y que sea interno: inset */
+    /* box-shadow: 0 0 1rem #00000025 inset; */
+}
