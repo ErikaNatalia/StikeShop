@@ -1,0 +1,13 @@
+.item{
+    padding: 10px;
+    /* border: 2px solid #fefefe; */
+    border: 2px solid #070707;
+    border-radius: 7px;
+}
+.imgItem{
+    width: 100%;
+    border-radius: 7px;
+}
+.titleArt{
+
+}

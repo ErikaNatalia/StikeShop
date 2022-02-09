@@ -21,7 +21,7 @@ const FirstSection = () => {
                 </div>
             </div>
             <div className={fHome.arrowIcon}>
-                <p><i class="fas fa-chevron-down">{down}</i></p>
+                <p>{down}</p>
             </div>
         </section>
     );

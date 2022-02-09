@@ -3,6 +3,7 @@
 .footer{
     color: #fefefe;
     background-color: #070707;
+    border-top: 0.4vh solid #fefefe;
 }
 .netBox{
     letter-spacing: 2px;
