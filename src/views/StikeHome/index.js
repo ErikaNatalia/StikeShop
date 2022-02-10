@@ -1,3 +1,4 @@
+import React from "react";
 import { FirstSection } from "./FirstSection";
 import { SecondSection } from "./SecondSection";
 

@@ -9,7 +9,6 @@
   list-style: none;
   width: 100%;
   height: 100%;
-  color: #fefefe;
   letter-spacing: 2px;
   font-size: 1.5rem;
   font-family: 'Poppins', sans-serif;
@@ -18,6 +17,8 @@
   justify-content: center;
 }
 .liMenu{
+  color: #fefefe;
+  text-decoration: none;
   cursor: pointer;
 }
 .liMenu:hover{

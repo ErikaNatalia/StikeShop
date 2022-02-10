@@ -1,4 +1,5 @@
 import sHome from './secondSection.module.css'
+import { Link } from "react-router-dom";
 import { Btns } from '../../Btns';
 
 const SecondSection = () => {
@@ -6,7 +7,9 @@ const SecondSection = () => {
     return(
         <section className={sHome.sHome}>
             <div>
-                <h1 className={sHome.titleS}>ALGUNOS DE NUESTROS <Btns txt={"PRODUCTOS"}/></h1>
+                <h1 className={sHome.titleS}>ALGUNOS DE NUESTROS 
+                <Link to="/toUse"><Btns txt={"PRODUCTOS"}/></Link>
+                </h1>
                 <section className={sHome.slider}>
                     <img className={sHome.imgSlider} src="https://i.ibb.co/KrSj019/blue.jpg" alt="Camiseta Helio" width={150}/>
                     <img className={sHome.imgSlider} src="https://i.ibb.co/mtgBCVw/TSC-Strada-Nuova-Tire.jpg" alt="" width={150}/>

@@ -1,5 +1,7 @@
 import fHome from './firstSection.module.css'
 import imageHome from '../../../media/toHome.jpg'
+import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll'
 //Import de fontawesom services
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
@@ -16,8 +18,8 @@ const FirstSection = () => {
                 <h1 className={fHome.homeTitle}>COMPARTIMOS LA ESENCIA DEL BMX</h1>
                 <br/> <br/>
                 <div className={fHome.buttons}>
-                    <Btns txt={"REPUESTOS"}/>
-                    <Btns txt={"PARA USAR"}/>
+                <Link to="/toUse"><Btns txt={"REPUESTOS"}/></Link>
+                <Link to="/toUse"><Btns txt={"PARA USAR"}/></Link>
                 </div>
             </div>
             <div className={fHome.arrowIcon}>
