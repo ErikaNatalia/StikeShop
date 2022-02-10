@@ -16,9 +16,9 @@ const Footer = () => {
             <div className={footer.netBox}>
                 Bogotá, Colombia <br/> Cra 52 # 45a - 29 Sur
                 <div className={footer.icons}>
-                    {instaIcon}
-                    {youIcon}
-                    {faceIcon}
+                    <a className={footer.a} href="https://instagram.com/stikebikeshop?utm_medium=copy_link" target="_blank" rel="noopener noreferrer">{instaIcon}</a>
+                    <a className={footer.a} href="https://www.youtube.com/channel/UCq1TMipFFDC6tE6lnUUaZ9A" target="_blank" rel="noopener noreferrer">{youIcon}</a>
+                    <a className={footer.a} href="https://es-la.facebook.com/Stikebmx/" target="_blank" rel="noopener noreferrer">{faceIcon}</a>
                 </div>
             </div>
             <div className={footer.lfooter}>© 2022 All Rights Reserved - Powered by <span className={footer.dev}>S1SU</span></div>

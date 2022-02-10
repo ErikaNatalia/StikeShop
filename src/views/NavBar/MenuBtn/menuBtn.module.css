@@ -1,0 +1,14 @@
+.svgNav{
+    position: absolute;
+    z-index: 300;
+    top: 30%;
+    cursor: pointer;
+    width:40px;
+    height:40px;
+    fill:#FEFEFE;
+}
+.btnContainer{
+    padding: 0 18px 0 15px;
+    background: transparent;
+    border: none;
+}

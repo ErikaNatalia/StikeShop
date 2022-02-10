@@ -15,7 +15,9 @@ const SecondSection = () => {
                 </section>
             </div>
             <h1 className={sHome.h1S}>Somos especializados en BMX Freestyle</h1>
-            <h1 className={sHome.titleS}>¡Aquí en <Btns txt={"VER VIDEO"}/> encontrarás nuestro video más reciente!</h1>
+            <h1 className={sHome.titleS}>¡Click
+            <a href="https://www.youtube.com/watch?v=7YEdLnFy1i0&t=14s" target="_blank" rel="noopener noreferrer"><Btns txt={"AQUÍ"}/></a>
+            y verás nuestro video más reciente!</h1>
         </section>
     );
 }

@@ -23,6 +23,12 @@
     font-size: 2.5rem;
     cursor: pointer;
 }
+.a{
+    color: #fefefe;
+}
+.a:hover{
+    color: #8C763D;
+}
 .face{
     font-size: 2.5rem;
     cursor: pointer;
