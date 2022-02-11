@@ -11,6 +11,35 @@
     width: 35%;
     border-radius: 7px;
 }
+
+@media only screen and (max-width: 600px){
+    .imgItem{
+        margin-top: 5vh;
+        width: 35%;
+        height: 35%;
+    }
+
+    .featuresItem{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 20px;
+    }
+    .trashIcon{
+        top: 20%;
+        left: 45%;
+        font-size: 1.4rem;
+    }
+    .titleArt{
+        font-size: 1rem;
+        letter-spacing: 2px;
+    }
+    .priceItem{
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+    }
+}
+
 .featuresItem{
     display: flex;
     flex-direction: column;

@@ -1,7 +1,6 @@
 import fHome from './firstSection.module.css'
 import imageHome from '../../../media/toHome.jpg'
 import { Link } from 'react-router-dom';
-import { Link } from 'react-scroll'
 //Import de fontawesom services
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
@@ -9,6 +8,8 @@ import { Btns } from '../../Btns';
 
 const down = <FontAwesomeIcon icon={faChevronDown} /> /* IconFormFA */
 const FirstSection = () => {
+    
+    
 
     return (
         <section className={fHome.fHome}>

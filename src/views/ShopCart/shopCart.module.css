@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 .boxCard{
-    padding: 0 18px 0 18px;
+    padding: 5vh 18px 0 18px;
     background-color: #070707;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
@@ -10,11 +12,54 @@
 } 
 
 .boxItem{
-    padding: 0 18px 0 18px;
+    padding: 5vh 18px 7vh 18px;
     background-color: #070707;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
     gap: 1rem;
     /* Que en x y y no se muevan, blur de 1 rem color negro con 25% de opacidad y que sea interno: inset */
     /* box-shadow: 0 0 1rem #00000025 inset; */
+}
+
+.btnClear{
+    cursor: pointer;
+    position: relative;
+    left: 150%;
+    font-size: 2rem;
+    color: red;
+    background: transparent;
+    border: none;
+}
+
+@media only screen and (max-width: 600px){
+    .btnClear{
+        left: 46%;
+    }
+
+    .boxItem{
+        padding: 5vh 18px 7vh 18px;
+        background-color: #070707;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+        gap: 1rem;
+    }
+}
+
+.h1{
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    font-family: 'Anton', sans-serif;
+    background-color: #070707;
+    text-align: center;
+    padding: 18vh 0 1vh 18px;
+    color: #fefefe;
+}
+.h1L{
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    font-family: 'Anton', sans-serif;
+    background-color: #070707;
+    text-align: center;
+    padding: 6vh 0 1vh 18px;
+    color: #fefefe;
 }
